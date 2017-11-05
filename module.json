@@ -1,0 +1,34 @@
+{
+    "name": "Auth0",
+    "slug": "auth0",
+    "version": "0.1",
+    "description": "Easily implement third-party authentication.",
+    "image": "https://avatars1.githubusercontent.com/u/2824157?s=400&v=4",
+    "settings": {
+        "enabled" : {
+            "name" : "enabled",
+            "description": "Enable third-party authentication through Auth0?",
+            "type" : "checkbox"
+        },
+        "auth0-domain" : {
+            "name" : "auth0-domain",
+            "description": "Domain",
+            "type" : "text"
+        },
+        "auth0-client-id" : {
+            "name" : "auth0-client-id",
+            "description": "Client ID",
+            "type" : "text"
+        },
+        "auth0-client-secret" : {
+            "name" : "auth0-client-secret",
+            "description": "Client Secret",
+            "type" : "text"
+        },
+        "auth0-redirect-url" : {
+            "name" : "auth0-redirect-url",
+            "description": "Redirect URL",
+            "type" : "text"
+        }
+    }
+}

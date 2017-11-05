@@ -1,0 +1,11 @@
+{
+  "name": "startupengine/auth0-module",
+  "description": "Third-party authentication module for Startup Engine.",
+  "keywords": ["startupengine", "module", "auth0", "authentication", "SSO"],
+  "require": {
+    "auth0/login" : "~5.0"
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
